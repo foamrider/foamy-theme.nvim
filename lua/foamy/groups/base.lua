@@ -8,7 +8,7 @@ return function(p, opts)
 		Normal = { fg = p.fg6, bg = bg },
 		NormalNC = { fg = p.fg6, bg = bg },
 		NormalFloat = { fg = p.fg6, bg = transparent and p.none or p.bg2 },
-		FloatBorder = { fg = p.fg0, bg = transparent and p.none or p.bg2 },
+		FloatBorder = { fg = p.fg2, bg = transparent and p.none or p.bg2 },
 		FloatTitle = { fg = p.ui_blue, bg = transparent and p.none or p.bg2, bold = true },
 
 		-- Cursor
@@ -20,7 +20,7 @@ return function(p, opts)
 		TermCursor = { fg = p.bg3, bg = p.fg6 },
 
 		-- Line numbers
-		LineNr = { fg = p.fg0 },
+		LineNr = { fg = p.fg1 },
 		CursorLineNr = { fg = p.fg5, bold = true },
 		SignColumn = { fg = p.fg0, bg = p.none },
 		FoldColumn = { fg = p.fg0, bg = p.none },
@@ -36,7 +36,7 @@ return function(p, opts)
 		TabLineFill = { bg = p.bg0 },
 
 		-- Window separators
-		WinSeparator = { fg = p.bg1, bg = p.none },
+		WinSeparator = { fg = p.fg1, bg = p.none },
 		VertSplit = "WinSeparator",
 
 		-- Popup menu
