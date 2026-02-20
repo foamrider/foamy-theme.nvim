@@ -13,28 +13,28 @@ return function(p, opts)
 		["@constant.macro"] = { fg = p.yellow },
 
 		-- Modules
-		["@module"] = { fg = p.yellow },
-		["@module.builtin"] = { fg = p.cyan },
+		["@module"] = { fg = p.purple },
+		["@module.builtin"] = { fg = p.yellow },
 
 		-- Strings
 		["@string"] = { fg = p.green },
 		["@string.documentation"] = { fg = p.green },
 		["@string.regex"] = { fg = p.orange },
-		["@string.escape"] = { fg = p.cyan },
+		["@string.escape"] = { fg = p.red },
 		["@string.special"] = { fg = p.orange },
 		["@string.special.url"] = { fg = p.cyan, underline = true },
 
 		-- Characters / numbers
 		["@character"] = { fg = p.green },
-		["@character.special"] = { fg = p.orange },
+		["@character.special"] = { fg = p.blue },
 		["@number"] = { fg = p.orange },
-		["@number.float"] = { fg = p.orange },
+		["@number.float"] = { fg = p.yellow },
 		["@boolean"] = { fg = p.orange },
 
 		-- Types
-		["@type"] = { fg = p.yellow },
+		["@type"] = { fg = p.blue },
 		["@type.builtin"] = { fg = p.yellow },
-		["@type.definition"] = { fg = p.yellow },
+		["@type.definition"] = { fg = p.blue },
 		["@type.qualifier"] = { fg = p.purple, italic = opts.italic_keywords },
 
 		-- Attributes / properties
@@ -43,20 +43,20 @@ return function(p, opts)
 
 		-- Functions
 		["@function"] = { fg = p.blue },
-		["@function.builtin"] = { fg = p.blue },
+		["@function.builtin"] = { fg = p.cyan },
 		["@function.call"] = { fg = p.blue },
-		["@function.macro"] = { fg = p.cyan },
+		["@function.macro"] = { fg = p.yellow },
 		["@function.method"] = { fg = p.blue },
 		["@function.method.call"] = { fg = p.blue },
 
 		-- Constructor
-		["@constructor"] = { fg = p.yellow },
+		["@constructor"] = { fg = p.blue },
 
 		-- Operators / punctuation
 		["@operator"] = { fg = p.fg6 },
 		["@punctuation.bracket"] = { fg = p.fg6 },
 		["@punctuation.delimiter"] = { fg = p.fg6 },
-		["@punctuation.special"] = { fg = p.blue },
+		["@punctuation.special"] = { fg = p.fg6 },
 
 		-- Keywords
 		["@keyword"] = { fg = p.purple, italic = opts.italic_keywords },
@@ -74,10 +74,10 @@ return function(p, opts)
 		["@keyword.type"] = { fg = p.yellow },
 
 		-- Labels / tags
-		["@label"] = { fg = p.purple },
+		["@label"] = { fg = p.blue },
 		["@tag"] = { fg = p.red },
-		["@tag.attribute"] = { fg = p.orange },
-		["@tag.delimiter"] = { fg = p.fg2 },
+		["@tag.attribute"] = { fg = p.cyan },
+		["@tag.delimiter"] = { fg = p.fg6 },
 		["@tag.builtin"] = { fg = p.red },
 
 		-- Comments
