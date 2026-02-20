@@ -50,9 +50,9 @@ return function(p, opts)
 		-- Lazy.nvim
 		LazyNormal = { fg = p.fg5, bg = transparent and p.none or p.bg2 },
 		LazyButton = { fg = p.fg5, bg = p.bg4 },
-		LazyButtonActive = { fg = p.bg3, bg = p.ui_blue },
+		LazyButtonActive = { fg = p.fg6, bg = p.bg5, bold = true },
 		LazyH1 = { fg = p.bg3, bg = p.ui_blue, bold = true },
-		LazySpecial = { fg = p.cyan, bold = true },
+		LazySpecial = { fg = p.blue, bold = true },
 
 		-- Mason
 		MasonNormal = { fg = p.fg5, bg = transparent and p.none or p.bg2 },
