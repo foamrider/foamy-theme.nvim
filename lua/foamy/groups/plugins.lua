@@ -8,6 +8,7 @@ return function(p, opts)
 		GitSignsAdd = { fg = p.git_add },
 		GitSignsChange = { fg = p.git_change },
 		GitSignsDelete = { fg = p.git_delete },
+		GitSignsCurrentLineBlame = { fg = p.fg3 },
 
 		-- NeoTree (compat)
 		NeoTreeNormal = { fg = p.fg6, bg = transparent and p.none or p.bg2 },

@@ -3,8 +3,8 @@ local p = require("foamy.palette")
 return {
 	normal = {
 		a = { bg = p.ui_blue, fg = p.bg1, gui = "bold" },
-		b = { bg = p.bg4, fg = p.fg5 },
-		c = { bg = p.bg1, fg = p.fg5 },
+		b = { bg = p.bg4, fg = p.purple },
+		c = { bg = p.bg1, fg = p.purple },
 	},
 	insert = {
 		a = { bg = p.ui_green, fg = p.bg1, gui = "bold" },
