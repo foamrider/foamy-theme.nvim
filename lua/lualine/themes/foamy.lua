@@ -4,7 +4,7 @@ return {
 	normal = {
 		a = { bg = p.ui_blue, fg = p.bg1, gui = "bold" },
 		b = { bg = p.bg4, fg = p.purple },
-		c = { bg = p.bg1, fg = p.purple },
+		c = { bg = p.bg1, fg = p.fg5 },
 	},
 	insert = {
 		a = { bg = p.ui_green, fg = p.bg1, gui = "bold" },
