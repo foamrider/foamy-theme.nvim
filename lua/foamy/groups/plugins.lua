@@ -43,8 +43,8 @@ return function(p, opts)
 		SnacksPickerTree = { fg = p.fg0 },
 
 		-- Snacks indent
-		SnacksIndent = { fg = p.fg0 },
-		SnacksIndentScope = { fg = p.fg2 },
+		SnacksIndent = { fg = "#2A3A4A" },
+		SnacksIndentScope = { fg = p.ui_blue },
 
 		-- Lazy.nvim
 		LazyNormal = { fg = p.fg5, bg = transparent and p.none or p.bg2 },
@@ -64,9 +64,9 @@ return function(p, opts)
 		WhichKeyValue = { fg = p.fg3 },
 
 		-- Indent-blankline / mini.indentscope
-		IblIndent = { fg = p.fg0 },
-		IblScope = { fg = p.fg2 },
-		MiniIndentscopeSymbol = { fg = p.fg2 },
+		IblIndent = { fg = "#2A3A4A" },
+		IblScope = { fg = p.ui_blue },
+		MiniIndentscopeSymbol = { fg = p.ui_blue },
 
 		-- Blink.cmp
 		BlinkCmpMenu = { fg = p.fg5, bg = transparent and p.none or p.bg2 },
