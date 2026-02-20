@@ -41,6 +41,7 @@ return function(p, opts)
 		SnacksPickerPathHidden = { fg = p.fg2 },
 		SnacksPickerPathIgnored = { fg = p.fg2 },
 		SnacksPickerFile = { fg = p.fg5 },
+		SnacksPickerGitStatusUntracked = { fg = p.fg6 },
 		SnacksPickerTree = { fg = p.fg0 },
 
 		-- Snacks indent
