@@ -52,6 +52,7 @@ return function(p, opts)
 		LazyButton = { fg = p.fg5, bg = p.bg4 },
 		LazyButtonActive = { fg = p.bg3, bg = p.ui_blue },
 		LazyH1 = { fg = p.bg3, bg = p.ui_blue, bold = true },
+		LazySpecial = { fg = p.cyan, bold = true },
 
 		-- Mason
 		MasonNormal = { fg = p.fg5, bg = transparent and p.none or p.bg2 },
